@@ -1,0 +1,71 @@
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 100px;
+}
+main .main-desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main-desc h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+main .main-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main .box {
+  max-width: 860px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #E0E0E0;
+  padding-bottom: 20px;
+}
+main .hed {
+  border: none;
+}
+main .box-img {
+  max-width: 250px;
+  height: 180px;
+}
+main .box-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .box-desc {
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .year {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+main .year img {
+  width: 50px;
+  height: 25px;
+}
+
+@media (max-width: 1200px) {
+  .container main {
+    padding: 20px 40px;
+  }
+}
+@media (max-width: 600px) {
+  .container main {
+    padding: 0px;
+  }
+}/*# sourceMappingURL=main.css.map */
